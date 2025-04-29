@@ -1,9 +1,9 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Model, useController, AsyncResult } from "@liamzebedee/stateman.js";
 import { AppController } from "./controller";
 
-let appController = new AppController();
+const appController = new AppController();
 
 
 
